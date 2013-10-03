@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+	<LinearLayout
+		android:layout_height="wrap_content" 
+		android:layout_width="fill_parent"
+		android:orientation="vertical" >
+
+<TableLayout
+    android:id="@+id/tableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="*"
+    android:gravity="top"
+    android:stretchColumns="*">
+    
+   <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+            
+		<EditText android:text=""
+	    	android:layout_height="wrap_content"
+	    	android:id="@+id/cari_penemu"
+        	android:textSize="16sp"
+            android:layout_span="8"
+        	android:hint="Cari data"
+			android:layout_width="fill_parent" >
+		</EditText>
+		
+		<Button
+        	android:id="@+id/btn_cari_penemu"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textSize="11sp"
+            android:layout_span="2"
+        	android:text="CARI" 
+        />
+        
+  	</TableRow>
+</TableLayout> 
+        
+	</LinearLayout>
+
+    <ListView 
+    android:id="@android:id/list" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" />
+    
+</LinearLayout>

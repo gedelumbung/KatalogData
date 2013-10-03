@@ -1,0 +1,4 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/tambah_kategori"
+	android:title="Tambah Data Kategori" />
+</menu>

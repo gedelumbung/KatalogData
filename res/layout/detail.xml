@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content" android:layout_width="fill_parent"
+	android:orientation="vertical"
+	android:padding="10dp" >
+ 
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+>
+	<LinearLayout
+	android:layout_height="wrap_content" android:layout_width="fill_parent"
+	android:orientation="vertical" >
+	
+	<TextView android:text=""
+	    android:layout_height="wrap_content"
+	    android:id="@+id/nama_penemu_detail"
+        android:textSize="20sp"
+		android:layout_width="fill_parent" >
+	</TextView>
+    
+	<ImageView 
+		android:layout_height="200dp"	
+	    android:id="@+id/gambar_detail"
+		android:layout_width="fill_parent" >
+	</ImageView>
+    
+	<TextView android:text=""
+	    android:layout_height="wrap_content"
+	    android:id="@+id/kelahiran_detail"
+        android:textSize="14sp"
+		android:layout_width="fill_parent" >
+	</TextView>
+	
+	<TextView android:text=""
+	    android:layout_height="wrap_content"
+	    android:id="@+id/keterangan_detail"
+        android:textSize="14sp"
+		android:layout_width="fill_parent" >
+	</TextView>
+
+</LinearLayout>
+</ScrollView>
+
+</LinearLayout>

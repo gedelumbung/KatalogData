@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content" android:layout_width="fill_parent"	
+    android:orientation="vertical" 
+	android:padding="20dp" >
+	
+    <TextView android:text= "@string/app_name"
+	    android:layout_height="wrap_content"
+        android:textSize="14sp"
+		android:layout_width="fill_parent" >
+	</TextView>
+	
+    <Button
+        android:id="@+id/btn_browse"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+    	android:orientation="horizontal" 
+        android:text="Browse Data" />
+    <Button
+        android:id="@+id/btn_dashboard"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+    	android:orientation="horizontal" 
+        android:text="Dashboard Admin" />
+    <Button
+        android:id="@+id/btn_about"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+    	android:orientation="horizontal" 
+        android:text="About" />
+
+</LinearLayout>

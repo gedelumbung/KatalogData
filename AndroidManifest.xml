@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dlmbg.pckg.crud.category"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="10" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="dlmbg.pckg.crud.category.PanelUtama"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		<activity android:name="MainActivity" android:label="@string/app_name"></activity>
+		<activity android:name="TambahKategori" android:label="@string/app_name"></activity>
+		<activity android:name="DaftarPenemu" android:label="@string/app_name"></activity>
+		<activity android:name="TambahPenemu" android:label="@string/app_name"></activity>
+		<activity android:name="DetailPenemu" android:label="@string/app_name"></activity>
+		<activity android:name="CariPenemu" android:label="@string/app_name"></activity>
+
+		<activity android:name="About" android:label="@string/app_name"></activity>
+		<activity android:name="Admin" android:label="@string/app_name"></activity>
+
+    </application>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+</manifest>

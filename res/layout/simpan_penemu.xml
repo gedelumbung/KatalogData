@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content" android:layout_width="fill_parent"
+    android:id="@+id/rootRL"
+    android:orientation="vertical" 
+	android:padding="10dp" >
+
+	<ScrollView
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+	>
+	<LinearLayout
+	android:layout_height="wrap_content" android:layout_width="fill_parent"
+	android:orientation="vertical" >
+	
+    <TextView android:text="Nama Penemu :"
+	    android:layout_height="wrap_content"
+        android:textSize="16sp"
+		android:layout_width="fill_parent" >
+	</TextView>
+	<EditText android:text=""
+	    android:layout_height="wrap_content"
+	    android:id="@+id/edit_penemu"
+        android:textSize="16sp"
+		android:layout_width="fill_parent" >
+	</EditText>
+	
+    <TextView android:text="Kelahiran :"
+	    android:layout_height="wrap_content"
+        android:textSize="16sp"
+		android:layout_width="fill_parent" >
+	</TextView>
+	<EditText android:text=""
+	    android:layout_height="wrap_content"
+	    android:id="@+id/edit_kelahiran"
+        android:textSize="16sp"
+		android:layout_width="fill_parent" >
+	</EditText>
+	
+    <TextView android:text="Pilih Gambar :"
+	    android:layout_height="wrap_content"
+        android:textSize="16sp"
+		android:layout_width="fill_parent" >
+	</TextView>
+	<Button 
+		android:id="@+id/btn_choose"
+		android:text="Choose Image" 		 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"/>
+		
+	<ImageView 
+		android:id="@+id/iv_pic"
+		android:layout_width="wrap_content"
+		android:layout_height="200dp"		
+		android:layout_marginTop="10dp"/>
+		
+	<EditText android:text=""
+	    android:layout_height="wrap_content"
+	    android:id="@+id/edit_gambar"
+        android:textSize="12sp"
+		android:layout_width="fill_parent" >
+	</EditText>
+	
+    <TextView android:text="Keterangan :"
+	    android:layout_height="wrap_content"
+        android:textSize="16sp"
+		android:layout_width="fill_parent" >
+	</TextView>
+	<EditText android:text=""
+    	android:layout_width="fill_parent"
+    	android:layout_height="300px"
+    	android:gravity="top"
+        android:textSize="16sp"
+	    android:id="@+id/edit_keterangan" >
+	</EditText>
+	
+	<Spinner
+        android:id="@+id/spinner_penemu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+    />
+	
+    <Button
+        android:id="@+id/btn_simpan_penemu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Simpan Data" />
+
+</LinearLayout>
+</ScrollView>
+
+</LinearLayout>
